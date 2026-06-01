@@ -1,164 +1,233 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="zh-TW">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Privacy Policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portal & Legal Center - Still Patrick Star</title>
     <style>
-      body {
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        padding: 1em;
-      }
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #16a085;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --card-bg: #ffffff;
+            --border-color: #e9ecef;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px 15px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1 { border-bottom: 2px solid var(--primary-color); padding-bottom: 10px; margin-top: 0; color: var(--primary-color); font-size: 2em; }
+        h2 { color: var(--primary-color); margin-top: 40px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+        h3 { color: var(--secondary-color); margin-top: 25px; }
+        h4 { color: #34495e; margin-top: 20px; font-weight: 600; }
+        ul, ol { padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; }
+        a { color: #3498db; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; color: #2980b9; }
+        
+        /* 導覽列設計 */
+        .nav-box {
+            background-color: #f1f3f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #adb5bd;
+        }
+        .nav-box strong { display: block; margin-bottom: 10px; font-size: 1.1em; }
+        .nav-box ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+        .nav-box li { background: #fff; padding: 6px 12px; border-radius: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); font-size: 0.9em; }
+        
+        /* 聯絡資訊卡片 */
+        .contact-card {
+            background-color: #e8f8f5;
+            border-left: 5px solid var(--secondary-color);
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        /* 醒目提示區塊 (資料刪除等) */
+        .alert-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        hr { border: 0; border-top: 1px solid var(--border-color); margin: 40px 0; }
+        
+        /* APP 標題 Banner */
+        .app-title-banner {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-top: 50px;
+        }
+        .app-title-banner h2 { border: none; padding: 0; margin: 0; color: #fff; }
+        
+        footer { text-align: center; color: #6c757d; font-size: 0.9em; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color); }
     </style>
-  </head>
-  <body>
-    <strong>Privacy Policy</strong>
-    <p>
-      This privacy policy applies to the Goodminton Court Scheduler / 予取羽球排場 app (hereby referred to as "Application")
-      for mobile devices that was created by Still Patrick Star(Cheng Sheng Kai) (hereby referred to as "Service Provider")
-      as a Freemium service. This service is intended for use "AS IS".
-    </p>
+</head>
+<body>
 
-    <br>
-    <strong>Information Collection and Use</strong>
-    <p>The Application collects information when you download and use it. This information may include:</p>
-    <ul>
-      <li>Your device's Internet Protocol address (e.g. IP address)</li>
-      <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
-      <li>The time spent on the Application</li>
-      <li>The operating system you use on your mobile device</li>
-    </ul>
+<div class="container">
+    <h1>Developer Portal & Legal Center</h1>
+    <p>Welcome to the official legal and support center for applications developed by <strong>Still Patrick Star (Cheng Sheng Kai)</strong>.</p>
 
-    <br>
-    <p>The Application does not gather precise information about the location of your mobile device.</p>
-
-    <div style="display: none;">
-      <p>
-        The Application collects your device's location, which helps the Service Provider determine your approximate
-        geographical location and make use of in below ways:
-      </p>
-      <ul>
-        <li>Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.</li>
-        <li>Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.</li>
-        <li>Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.</li>
-      </ul>
+    <!-- 快速導覽錨點 -->
+    <div class="nav-box">
+        <strong>📌 Quick Navigation / 快速導覽：</strong>
+        <ul>
+            <li><a href="#support">📞 Contact & Support (客服與支援)</a></li>
+            <li><a href="#br-privacy">🏸 BadmintonReview Privacy (公道伯隱私權)</a></li>
+            <li><a href="#br-terms">🏸 BadmintonReview Terms (公道伯服務條款)</a></li>
+            <li><a href="#gm-privacy">📅 Goodminton Privacy (排場隱私權)</a></li>
+            <li><a href="#gm-terms">📅 Goodminton Terms (排場服務條款)</a></li>
+        </ul>
     </div>
 
-    <br>
-    <p>
-      The Service Provider may use the information you provided to contact you from time to time to provide you with
-      important information, required notices and marketing promotions.
-    </p>
-
-    <br>
-    <p>
-      For a better experience, while using the Application, the Service Provider may require you to provide us with
-      certain personally identifiable information, including but not limited to smallfat5566@gmail.com.
-      The information that the Service Provider request will be retained by them and used as described in this privacy policy.
-    </p>
-
-    <br>
-    <strong>Third Party Access</strong>
-    <p>
-      Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider
-      in improving the Application and their service. The Service Provider may share your information with third
-      parties in the ways that are described in this privacy statement.
-    </p>
-
-    <div>
-      <br>
-      <p>
-        Please note that the Application utilizes third-party services that have their own Privacy Policy about
-        handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
-      </p>
-      <ul>
-        <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
-        <li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank" rel="noopener noreferrer">AdMob</a></li>
-        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
-        <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
-      </ul>
+    <!-- ================================================================= -->
+    <!-- 📞 核心任務：支援與聯絡區塊 -->
+    <!-- ================================================================= -->
+    <div id="support" class="contact-card">
+        <h2 style="margin-top: 0; border: none; color: #16a085;">Contact & Customer Support / 聯絡與支援</h2>
+        <p>If you experience any bugs, crashes, have feature suggestions, or need assistance with <strong>account deletion and data removal</strong>, please contact the Service Provider directly.</p>
+        <ul>
+            <li><strong>Developer:</strong> Still Patrick Star (Cheng Sheng Kai)</li>
+            <li><strong>Support & Contact Email:</strong> <a href="mailto:smallfat5566@gmail.com">smallfat5566@gmail.com</a></li>
+            <li><strong>Response Time:</strong> Typically within 24-48 hours.</li>
+        </ul>
+        <p><small><em>*App Store & Google Play Reviewers: This section serves as the official Support and Contact URL for all listed applications.</em></small></p>
     </div>
-
-    <br>
-    <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
-    <ul>
-      <li>as required by law, such as to comply with a subpoena, or similar legal process;</li>
-      <li>when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;</li>
-      <li>with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.</li>
-    </ul>
-
-    <br>
-    <strong>Opt-Out Rights</strong>
-    <p>
-      You can stop all collection of information by the Application easily by uninstalling it.
-      You may use the standard uninstall processes as may be available as part of your mobile device or
-      via the mobile application marketplace or network.
-    </p>
-
-    <br>
-    <strong>Data Retention Policy</strong>
-    <p>
-      The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable
-      time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application,
-      please contact them at smallfat5566@gmail.com and they will respond in a reasonable time.
-    </p>
-
-    <br>
-    <strong>Children</strong>
-    <p>
-      The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
-    </p>
-
-    <div>
-      <br>
-      <p>
-        The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally
-        identifiable information from children under 13 years of age. In the case the Service Provider discover that a child
-        under 13 has provided personal information, the Service Provider will immediately delete this from their servers.
-        If you are a parent or guardian and you are aware that your child has provided us with personal information,
-        please contact the Service Provider (smallfat5566@gmail.com) so that they will be able to take the necessary actions.
-      </p>
-    </div>
-
-    <br>
-    <strong>Security</strong>
-    <p>
-      The Service Provider is concerned about safeguarding the confidentiality of your information.
-      The Service Provider provides physical, electronic, and procedural safeguards to protect information
-      the Service Provider processes and maintains.
-    </p>
-
-    <br>
-    <strong>Changes</strong>
-    <p>
-      This Privacy Policy may be updated from time to time for any reason.
-      The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy.
-      You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
-    </p>
-
-    <br>
-    <p>This privacy policy is effective as of 2025-11-03</p>
-
-    <br>
-    <strong>Your Consent</strong>
-    <p>
-      By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now
-      and as amended by us.
-    </p>
-
-    <br>
-    <strong>Contact Us</strong>
-    <p>
-      If you have any questions regarding privacy while using the Application, or have questions about the practices,
-      please contact the Service Provider via email at smallfat5566@gmail.com.
-    </p>
 
     <hr>
-    <p>
-      This privacy policy page was generated by
-      <a href="https://app-privacy-policy-generator.nisrulz.com/" target="_blank" rel="noopener noreferrer">
-        App Privacy Policy Generator
-      </a>
-    </p>
-  </body>
+
+    <!-- ================================================================= -->
+    <!-- 🏸 APP 1: 羽球公道伯 (BadmintonReview) -->
+    <!-- ================================================================= -->
+    <div class="app-title-banner">
+        <h2>1. 羽球公道伯 / BadmintonReview</h2>
+    </div>
+
+    <!-- 隱私權政策 -->
+    <div id="br-privacy">
+        <h3>Privacy Policy (隱私權政策)</h3>
+        <p>This privacy policy applies to the <strong>羽球公道伯 / BadmintonReview</strong> application (hereby referred to as "Application") for mobile devices, created by <strong>Still Patrick Star (Cheng Sheng Kai)</strong> (hereby referred to as "Service Provider"). This service is intended for use "AS IS".</p>
+        
+        <h4>Information Collection and Use</h4>
+        <p>To provide core matching, ranking, and community features, the Application collects the following information:</p>
+        <ul>
+            <li><strong>Personal Information:</strong> Email address (for account registration/authentication), Name/Nickname (for user profile, optional), and Phone Number or Third-party Contact IDs (for player communication, optional).</li>
+            <li><strong>User Generated Content (UGC):</strong> Player ratings, match records, comments, and profile media uploaded by the user.</li>
+            <li><strong>Identifiers:</strong> Unique User ID (linked to your account data) and Device ID (collected via third-party SDKs for analytics and crash reporting).</li>
+            <li><strong>Diagnostics:</strong> Crash logs and app performance metrics.</li>
+        </ul>
+
+        <h4>Location Data</h4>
+        <p>The Application does not gather precise real-time GPS location automatically. Any regional settings (e.g., selecting a city or court) are manually entered by the user and treated as standard profile data.</p>
+
+        <h4>Third-Party Services</h4>
+        <p>The Application utilizes trusted third-party services to ensure stability and analyze usage. Below are their Privacy Policies:</p>
+        <ul>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+            <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+        </ul>
+
+        <div class="alert-box">
+            <h4 style="margin-top: 0;">Account & Data Deletion Policy (帳號與資料刪除)</h4>
+            <p>You have the right to request the complete deletion of your account and all associated data (including ratings, match history, and profile details). <strong>To delete your account and data, please send an email request to <a href="mailto:smallfat5566@gmail.com">smallfat5566@gmail.com</a> with the subject "Account Deletion Request".</strong> The Service Provider will process the permanent deletion within 15 days.</p>
+        </div>
+    </div>
+
+    <!-- 服務條款 (強化版 UGC 防禦) -->
+    <div id="br-terms">
+        <h3>Terms of Service & EULA (服務條款與使用者協議)</h3>
+        <p>By downloading or using the <strong>羽球公道伯 / BadmintonReview</strong> application, these terms automatically apply to you.</p>
+        
+        <h4>User-Generated Content (UGC) Policy & Community Safety</h4>
+        <p>As a community platform that allows users to post ratings and comments, we enforce a strict <strong>Zero Tolerance Policy</strong> against objectionable content and abusive behavior. By using the Application, you agree to the following:</p>
+        <ol>
+            <li><strong>No Objectionable Content:</strong> You must not post defamatory, discriminatory, harassing, explicit, or false rating content against other players or venues.</li>
+            <li><strong>Reporting Mechanism:</strong> Users can flag and report inappropriate content or abusive users directly within the Application or by emailing <a href="mailto:smallfat5566@gmail.com">smallfat5566@gmail.com</a>.</li>
+            <li><strong>Blocking Feature:</strong> The Application provides a mechanism for users to block abusive players, preventing further interaction.</li>
+            <li><strong>Moderation & Action:</strong> The Service Provider will review all reports and act upon objectionable content reports within 24 hours. Violators will face immediate content removal and permanent account suspension.</li>
+        </ol>
+
+        <h4>Limitation of Liability</h4>
+        <p>The Application is provided "AS IS". The match-making, player ratings, and indicators are strictly for recreational reference. The Service Provider is not responsible for any physical injuries or disputes occurring during physical badminton matches organized through the platform.</p>
+    </div>
+
+    <hr>
+
+    <!-- ================================================================= -->
+    <!-- 📅 APP 2: 予取羽球排場 (Goodminton Court Scheduler) -->
+    <!-- ================================================================= -->
+    <div class="app-title-banner" style="background-color: #8e44ad;">
+        <h2>2. 予取羽球排場 / Goodminton Court Scheduler</h2>
+    </div>
+
+    <!-- 隱私權政策 -->
+    <div id="gm-privacy">
+        <h3>Privacy Policy (隱私權政策)</h3>
+        <p>This privacy policy applies to the <strong>Goodminton Court Scheduler / 予取羽球排場</strong> application, created by <strong>Still Patrick Star (Cheng Sheng Kai)</strong>.</p>
+        
+        <h4>Information Collection and Use</h4>
+        <ul>
+            <li>Your device's Internet Protocol (IP) address.</li>
+            <li>Application usage statistics (time spent, pages visited).</li>
+            <li>Operating system information.</li>
+            <li>Personally identifiable contact information (e.g., email address) if explicitly provided.</li>
+        </ul>
+
+        <h4>Third-Party Services & Advertising</h4>
+        <p>This Application utilizes third-party advertising and analytics services. Links to their privacy policies:</p>
+        <ul>
+            <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Play Services</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543?hl=zh-TW" target="_blank" rel="noopener noreferrer">AdMob</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li>
+            <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li>
+        </ul>
+
+        <h4>Opt-Out & Data Deletion</h4>
+        <p>You can stop all collection of information by uninstalling the Application. If you wish to delete any provided data, please contact <a href="mailto:smallfat5566@gmail.com">smallfat5566@gmail.com</a>.</p>
+    </div>
+
+    <!-- 服務條款 -->
+    <div id="gm-terms">
+        <h3>Terms of Service (服務條款)</h3>
+        <p>The <strong>Goodminton Court Scheduler</strong> is provided to assist in managing court schedules and sessions.</p>
+        <ul>
+            <li>You agree to use the Application only for lawful purposes related to organizing badminton games.</li>
+            <li>You must not attempt to extract the source code, disrupt the infrastructure, or translate the app without permission.</li>
+            <li>The Service Provider reserves the right to modify the Application or charge for its services at any time with appropriate notification.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>
+            <strong>Last Updated / Effective Date:</strong> June 1, 2026<br>
+            Developed by Still Patrick Star (Cheng Sheng Kai)<br>
+            This page acts as a centralized repository for Privacy Policies, Terms of Service, and Customer Support.
+        </p>
+    </footer>
+</div>
+
+</body>
 </html>
